@@ -13,7 +13,7 @@
   </a>  
 </p>
 
-
+![views](https://gpvc.arturio.dev/youtubeslgeekshow/szrosebot)
 
 ## Avaiilable a latest version as  [szrosebot](https://t.me/szrosebot) on Telegram
 
