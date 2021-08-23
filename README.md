@@ -47,12 +47,12 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
 <details>
   <summary><b>Credits ❤</b></summary>
 <br>
-- DaisyX music 
-- Anki Vector
-- Hexzy 🇵 🇷 🇴
-- GRANDROBOT
-- Leo media search bot
-- DewmiBot
+  - <b> DaisyX music </b>
+  - <b> Anki Vector </b>
+  - <b>  Hexzy 🇵 🇷 🇴 </b>
+  - <b> GRANDROBOT </b>
+  - <b>  Leo media search bot </b>
+  - <b> DewmiBot </b>
   
 </details>
 
