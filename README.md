@@ -70,4 +70,16 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
   
 </details>
 
+<details>
+  <summary><b> New features</b></summary>
+<br>
+  - <b> vc play </b>
+  - <b> inline  search  </b>
+  - <b> new start menu </b>
+  - <b> fun / logo /carbon /etc.. </b>
+  - <b>  help menu change </b>
+  - <b> and more</b>
+  
+</details>
+
 
