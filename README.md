@@ -13,7 +13,6 @@
   </a>  
 </p>
 
-![views](https://gpvc.arturio.dev/youtubeslgeekshow)
 
 ## Avaiilable a latest version as  [szrosebot](https://t.me/szrosebot) on Telegram
 
@@ -83,3 +82,15 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
 </details>
 
 
+| **Platform** |  **Follow now**   |
+|------------|---------------------|
+|   Youtube   | [![Code Palace](https://img.shields.io/youtube/channel/subscribers/UCvYfJcTr8RY72dIapzMqFQA?label=slgeekshow%20show&style=social)](https://www.youtube.com/c/SLGeeKShows/videos) |
+|  Telegram    | [![Telegram](https://img.shields.io/badge/slbotzone%20Team-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/slbotzone)&nbsp;|
+|  Facebook  | [![Facebook](https://img.shields.io/badge/Follow%20me%20on%20Facebook-2533cf?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=facebook)](https://www.facebook.com/SL-Geek-Show-yt-103654258471929/)&nbsp;|
+|  Intagram | [![Intagram](https://img.shields.io/badge/Follow%20me%20on%20Instagram-4d267a?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=instagram)](https://www.instagram.com/sl_geek_show/)&nbsp; |
+| Github | [![GitHub followers](https://img.shields.io/github/followers/youtubeslgeekshow.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/youtubeslgeekshow?tab=followers) |
+
+<h3><details>
+  <summary><b>Don't Open this path </b></summary>
+  <p><a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA" title="How to create Bot useing python ">How to create Bot useing python</a>
+ </details></h3>
