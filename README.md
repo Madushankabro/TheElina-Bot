@@ -43,3 +43,17 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
  
 ### Updates Channel 🇱🇰
 <a href="https://t.me/sl_bot_zone"><img src="https://img.shields.io/badge/Telegram-Join%20Updates%20Channel-blue.svg?logo=telegram"></a>
+
+<details>
+  <summary><b>Credits ❤</b></summary>
+<br>
+- DaisyX music 
+- Anki Vector
+- Hexzy 🇵 🇷 🇴
+- GRANDROBOT
+- Leo media search bot
+- DewmiBot
+  
+</details>
+
+
