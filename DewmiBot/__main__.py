@@ -61,7 +61,7 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There ! MyName Is **ΞLIИA̴**. 
+[🤗](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), Hay There ! My Name Is **ΞLIИA̴**. 
 
 Ican help to manage your groups with useful features, feel free to add me to your groups! 
 Promote me as **ADMIN**  to let me get in action!
@@ -73,7 +73,7 @@ Hit  /help to see **all the commands** and how they work!
 HELP_STRINGS = f"""
 *↤↤↤↤↤ 『 ΞLIИA̴  HΞLP MΞИU 』 ↦↦↦↦↦*
 
-Hay ! I'm ΞLIИA̴  🇱🇰
+**Hay ! I'm ΞLIИA̴  🇱🇰**
 
 The following funtions will helpful to you to manage your group. 😇
 
