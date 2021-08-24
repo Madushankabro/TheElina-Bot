@@ -89,7 +89,7 @@ async def logo_gen(event):
         await event.client.send_file(
             event.chat_id,
             file=flnme,
-            caption=f"Logo by @szrosebot🇱🇰",
+            caption=f"Logo by @TheElinaBot 🇱🇰",
             force_document=True,
         )
         os.remove(flnme)
