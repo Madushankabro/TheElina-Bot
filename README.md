@@ -98,7 +98,7 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
  
  <h3><details>
   <summary><b>Screen shot of this bot📸 </b></summary>
-  <p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/c4fa09386de4c4176323f.png" width="200"></a></p>
+  <p align="left"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/c4fa09386de4c4176323f.png" width="200"></a></p>
   <p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/ad61a6ea82c4d48246a2e.png" width="200"></a></p>
-  <p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/dc29ccaf28f1517834b27.png" width="200"></a></p>
+  <p align="right"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/dc29ccaf28f1517834b27.png" width="200"></a></p>
  </details></h3>
