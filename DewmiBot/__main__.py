@@ -61,21 +61,21 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There ! MyName Is **ᗴᒪᎥᑎᗩ**. 
+Hay There ! MyName Is **ΞLIИA̴**. 
 
-𝙄 𝙘𝙖𝙣 𝙝𝙚𝙡𝙥 𝙢𝙖𝙣𝙖𝙜𝙚 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙬𝙞𝙩𝙝 𝙪𝙨𝙚𝙛𝙪𝙡 𝙛𝙚𝙖𝙩𝙪𝙧𝙚𝙨, 𝙛𝙚𝙚𝙡 𝙛𝙧𝙚𝙚 𝙩𝙤 𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨!
-𝗽𝗿𝗼𝗺𝗼𝘁𝗲 𝗺𝗲 𝗮𝘀 **𝗔𝗱𝗺𝗶𝗻** 𝘁𝗼 𝗹𝗲𝘁 𝗺𝗲 𝗴𝗲𝘁 𝗶𝗻 𝗮𝗰𝘁𝗶𝗼𝗻!
+Ican help to manage your groups with useful features, feel free to add me to your groups! 
+Promote me as **ADMIN**  to let me get in action!
 
 ❓ **𝗪𝗛𝗔𝗧 𝗔𝗥𝗘 𝗧𝗛𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦?** ❓
-𝗣𝗿𝗲𝘀𝘀  /help   𝘁𝗼 𝘀𝗲𝗲 **𝗮𝗹𝗹 𝘁𝗵𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀** 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸!
+Hit  /help to see **all the commands** and how they work!
 """
 
 HELP_STRINGS = f"""
-*Rose Help Menu*
+*↤↤↤↤↤ 『 ΞLIИA̴  HΞLP MΞИU 』 ↦↦↦↦↦*
 
-𝕴'𝖒 𝕽𝖔𝖘𝖊 𝖇𝖔𝖙 🇱🇰
+Hay ! I'm ΞLIИA̴  🇱🇰
 
-𝑻𝒉𝒆 𝒇𝒐𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒇𝒖𝒏𝒄𝒕𝒊𝒐𝒏𝒔 𝒘𝒊𝒍𝒍 𝒉𝒆𝒍𝒑𝒇𝒖𝒍 𝒕𝒐 𝒚𝒐𝒖 𝒕𝒐 𝒎𝒂𝒏𝒂𝒈𝒆 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑🙂
+The following funtions will helpful to you to manage your group. 😇
 
 """.format(
     dispatcher.bot.first_name,
