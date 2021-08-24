@@ -84,30 +84,30 @@ The following funtions will helpful to you to manage your group. 😇
 
 
 DONATE_STRING = """
-𝑯𝒆𝒚𝒂, 𝒈𝒍𝒂𝒅 𝒕𝒐 𝒉𝒆𝒂𝒓 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒅𝒐𝒏𝒂𝒕𝒆!
-𝒀𝒐𝒖 𝒄𝒂𝒏 𝒅𝒐𝒏𝒂𝒕𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒐𝒓𝒊𝒈𝒊𝒏𝒂𝒍 𝒘𝒓𝒊𝒕𝒆𝒓'𝒔 𝒐𝒇 𝒕𝒉𝒆 𝑩𝒂𝒔𝒆 𝒄𝒐𝒅𝒆,
-𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
+Hay, glad to here you want to donate! 
+You can donate to the ogiginal writer's of the Base Code,
+Support them [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
 """
 
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
+            text="➕️ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗 ➕️", url="http://t.me/TheElinaBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📢 𝐜𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://t.me/sl_bot_zone"),
+        InlineKeyboardButton(text="📢 𝘊𝘏𝘈𝘕𝘕𝘌𝘓", url=f"https://t.me/ElinaNews"),
         InlineKeyboardButton(
-            text="💬 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/slbotzone"
+            text="💬 𝘚𝘜𝘗𝘗𝘖𝘙𝘛", url=f"https://t.me/ElinaSupport"
         ),
     ],
     [
-        InlineKeyboardButton(text=" 𝐌𝐨𝐫𝐞 ", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text=" 𝑅𝐸𝒱𝐼𝐸𝒲 𝒰𝒮 ", callback_data="aboutmanu_"),
         InlineKeyboardButton(
-            text="❗️𝐈𝐧𝐟𝐨 & 𝐀𝐛𝐨𝐮𝐭 ♻️", callback_data="aboutmanu_"
+            text="𝘐𝘕𝘍𝘖 & 𝘈𝘉𝘖𝘜𝘛 ♻️", callback_data="aboutmanu_"
         ),
     ],
     [
-        InlineKeyboardButton(text=" ❗️ 𝗛𝗲𝗹𝗽 & 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 ❓", callback_data="help_back"),
+        InlineKeyboardButton(text=" ❗️ 𝘏𝘌𝘓𝘗 & 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚 ❓", callback_data="help_back"),
     ],
 ]
 IMPORTED = {}
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            " 𝑰'𝒎 𝒂𝒘𝒂𝒌𝒆 𝒂𝒍𝒓𝒆𝒂𝒅𝒚!😊\𝒏<𝒃>𝑯𝒂𝒗𝒆𝒏'𝒕 𝒔𝒍𝒆𝒑𝒕 𝒔𝒊𝒏𝒄𝒆:</𝒃> <𝒄𝒐𝒅𝒆>{}</𝒄𝒐𝒅𝒆>😝".format(
+            " I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -293,7 +293,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*｢｢  𝗛𝗲𝗹𝗽  𝗳𝗼𝗿  {}  𝗺𝗼𝗱𝘂𝗹𝗲 」」😊*\𝗻".format(
+                "*↤↤↤↤↤ 『 HΞLP FФ𝚁  {}   MФDULΞ 』 ↦↦↦↦↦*\𝗻".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -356,7 +356,7 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"𝘾𝙇𝙄𝘾𝙆 𝘽𝙀𝙇𝙊𝙒 𝘽𝙐𝙏𝙏𝙊𝙉 𝙁𝙊𝙍 𝙆𝙉𝙊𝙒 𝙈𝙊𝙍𝙀 𝘼𝘽𝙊𝙐𝙏 𝙈𝙀 📱 𝑨𝒏𝒅 𝒎𝒐𝒓𝒆",
+            text=f"CLICK BOLOW BUTTONS FOR KNOW MORE ABOUT ME 📱 and more",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -376,7 +376,7 @@ def DewmiBot_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🚀 𝐅𝐫𝐞𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐟𝐢𝐥𝐞", switch_inline_query_current_chat=""
+                            text="CREDITS", url= "https://t.me/FreeNetSL"
                         )
                     ],
                     [InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_back")],
