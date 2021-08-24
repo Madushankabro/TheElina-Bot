@@ -1,5 +1,5 @@
 __help__ = """
-@szrosebot🇱🇰
+@TheElinaBot🇱🇰
 ** GPS **
  ❍ /gps <Place> : Show Location on a map
  
@@ -27,4 +27,4 @@ __help__ = """
  ❍ /phone <tp no> : Track Phone no
  
 """
-__mod_name__ = "More Tools🌝"
+__mod_name__ = "Elina Special🎉"
