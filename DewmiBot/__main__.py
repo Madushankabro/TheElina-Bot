@@ -363,23 +363,23 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="⚡️ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫", url= "http://t.me/supunma"
+                            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url= "http://t.me/supunma"
                         ),
                         InlineKeyboardButton(
-                            text="𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐞🥺", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                            text="sᴜᴘᴘᴏʀᴛ ᴍᴇ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🚀 𝐅𝐫𝐞𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url= "https://t.me/FreeNetSL"
+                            text="ʙᴏᴛs ᴄʜᴀɴɴᴇʟ", url= "https://t.me/FreeNetSL"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="CREDITS", url= "https://t.me/FreeNetSL"
+                            text="ᴄʀᴇᴅɪᴛs", url= "https://t.me/FreeNetSL"
                         )
                     ],
-                    [InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="☜ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -393,7 +393,7 @@ def DewmiBot_about_callback(update, context):
 
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
-            text=f"* ｢ 𝐁𝐀𝐒𝐈𝐂 𝐇𝐄𝐋𝐏 」*"
+            text=f"* ↤↤↤↤↤ 『 𝐵𝒜𝒮𝐼𝒞 𝐻𝐸𝐿𝒫 』 ↦↦↦↦↦」*"
             f"\n\n⭕️ 𝙄𝙛 𝙔𝙤𝙪 𝘾𝙖𝙣 𝘼𝙡𝙨𝙤 𝘼𝙙𝙙 {𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙛𝙞𝙧𝙨𝙩_𝙣𝙖𝙢𝙚} 𝙏𝙤 𝙔𝙤𝙪𝙧 𝘾𝙝𝙖𝙩𝙨 𝘽𝙮 𝘾𝙡𝙞𝙘𝙠𝙞𝙣𝙜 [𝙃𝙚𝙧𝙚](𝙝𝙩𝙩𝙥://𝙩.𝙢𝙚/{𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚}?𝙨𝙩𝙖𝙧𝙩𝙜𝙧𝙤𝙪𝙥=𝙩𝙧𝙪𝙚) 𝘼𝙣𝙙 𝙎𝙚𝙡𝙚𝙘𝙩𝙞𝙣𝙜 𝘾𝙝𝙖𝙩. \𝙣"
             f"\n\n⭕️ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐠𝐞𝐭 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 {𝐝𝐢𝐬𝐩𝐚𝐭𝐜𝐡𝐞𝐫.𝐛𝐨𝐭.𝐟𝐢𝐫𝐬𝐭_𝐧𝐚𝐦𝐞} 𝐛𝐲 𝐣𝐨𝐢𝐧𝐢𝐧𝐠 [𝐒𝐋 𝐓𝐞𝐜𝐡 𝐙𝐨𝐧𝐞](𝐡𝐭𝐭𝐩𝐬://𝐭.𝐦𝐞/𝐬𝐥𝐭𝐞𝐜𝐡𝐳𝐨𝐧𝐞).\𝐧"
             f"",
