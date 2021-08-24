@@ -38,7 +38,7 @@ def _onUnMuteRequest(client, cb):
                 except UserNotParticipant:
                     client.answer_callback_query(
                         cb.id,
-                        text=f"❗ Join our @{channel} channel and press 'UnMute Me' button.",
+                        text=f"❗ Join our @{channel} channel and press '𝚄𝙽𝙼𝚄𝚃𝙴 𝙼𝙴' button.",
                         show_alert=True,
                     )
             else:
@@ -90,13 +90,13 @@ def _check_member(client, message):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "Join Channel",
+                                        "📣 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📣",
                                         url="https://t.me/{}".format(channel),
                                     )
                                 ],
                                 [
                                     InlineKeyboardButton(
-                                        "UnMute Me", callback_data="onUnMuteRequest"
+                                        "🚨 𝚄𝙽𝙼𝚄𝚃𝙴 𝙼𝙴 🚨", callback_data="onUnMuteRequest"
                                     )
                                 ],
                             ]
@@ -107,7 +107,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **DewmiBot is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "❗ **ElinaBot is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -176,7 +176,7 @@ def config(client, message):
 
 
 __help__ = """
-@szrosebot🇱🇰
+@TheElinaBot🇱🇰
 *ForceSubscribe:*
 ❍ RoseBot can mute members who are not subscribed your channel until they subscribe.
 ❍ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them.
@@ -195,4 +195,4 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 ⚠️ Note:  /FSub is an alias of /ForceSubscribe
 
 """
-__mod_name__ = "F-Sub📢"
+__mod_name__ = "Force-Sub🔇"
