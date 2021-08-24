@@ -449,10 +449,10 @@ def __stats__():
     )
 
 
-__mod_name__ = "Blacklists🚫"
+__mod_name__ = "Blacklist🏴"
 
 __help__ = """
-@szrosebot🇱🇰
+
 Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!
 *NOTE*: Blacklists do not affect group admins.
  ❍ `/blacklist`*:* View the current blacklisted words.
@@ -461,6 +461,8 @@ Admin only:
  ❍ `/unblacklist <triggers>`*:* Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
  ❍ `/blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>`*:* Action to perform when someone sends blacklisted words.
 
+
+©️@TheElinaBot🇱🇰
 """
 BLACKLIST_HANDLER = DisableAbleCommandHandler(
     "blacklist", blacklist, pass_args=True, admin_ok=True
