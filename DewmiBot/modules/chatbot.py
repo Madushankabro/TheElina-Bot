@@ -144,7 +144,7 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
 
 
 __help__ = f"""
-@szrosebot🇱🇰
+
 Chatbot utilizes the CoffeeHouse API and allows Senku to talk and provides a more interactive group chat experience.
 
 *Commands:* 
@@ -154,6 +154,8 @@ Chatbot utilizes the CoffeeHouse API and allows Senku to talk and provides a mor
 
 Reports bugs at @{SUPPORT_CHAT}
 [Powered by CoffeeHouse](https://coffeehouse.intellivoid.net) from @Intellivoid
+
+©️@TheElinaBot🇱🇰
 
 """
 
