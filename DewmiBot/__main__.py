@@ -71,9 +71,9 @@ Hit  /help to see **all the commands** and how they work!
 """
 
 HELP_STRINGS = f"""
-*↤↤↤↤↤ 『 ΞLIИA̴  HΞLP MΞИU 』 ↦↦↦↦↦* (https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
+*↤↤↤↤↤ 『 ΞLIИA̴  HΞLP MΞИU 』 ↦↦↦↦↦* 
 
-**Hay ! I'm ΞLIИA̴  🇱🇰**
+Hay ! I'm ΞLIИA̴  [🇱🇰](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
 
 The following funtions will helpful to you to manage your group. 😇
 
