@@ -293,7 +293,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*↤↤↤↤↤ 『 HΞLP FФ𝚁  {}   MФDULΞ 』 ↦↦↦↦↦*\𝗻".format(
+                "*↤↤↤↤↤ 『 HΞLP FФ𝚁   {}   MФDULΞ 』 ↦↦↦↦↦*".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -356,14 +356,14 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"CLICK BOLOW BUTTONS FOR KNOW MORE ABOUT ME 📱 and more",
+            text=f"Click below buttons to know more about me",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url= "http://t.me/supunma"
+                            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url= "http://t.me/kasu_bro"
                         ),
                         InlineKeyboardButton(
                             text="sᴜᴘᴘᴏʀᴛ ᴍᴇ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
@@ -376,10 +376,10 @@ def DewmiBot_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴄʀᴇᴅɪᴛs", url= "https://t.me/FreeNetSL"
+                            text="ʀᴇᴘᴏ ᴄʀᴇᴅɪᴛs", url= "https://github.com/youtubeslgeekshow/szrosebot"
                         )
                     ],
-                    [InlineKeyboardButton(text="☜ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -394,8 +394,8 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
             text=f"* ↤↤↤↤↤ 『 𝐵𝒜𝒮𝐼𝒞 𝐻𝐸𝐿𝒫 』 ↦↦↦↦↦」*"
-            f"\n\n⭕️ 𝙄𝙛 𝙔𝙤𝙪 𝘾𝙖𝙣 𝘼𝙡𝙨𝙤 𝘼𝙙𝙙 {𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙛𝙞𝙧𝙨𝙩_𝙣𝙖𝙢𝙚} 𝙏𝙤 𝙔𝙤𝙪𝙧 𝘾𝙝𝙖𝙩𝙨 𝘽𝙮 𝘾𝙡𝙞𝙘𝙠𝙞𝙣𝙜 [𝙃𝙚𝙧𝙚](𝙝𝙩𝙩𝙥://𝙩.𝙢𝙚/{𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚}?𝙨𝙩𝙖𝙧𝙩𝙜𝙧𝙤𝙪𝙥=𝙩𝙧𝙪𝙚) 𝘼𝙣𝙙 𝙎𝙚𝙡𝙚𝙘𝙩𝙞𝙣𝙜 𝘾𝙝𝙖𝙩. \𝙣"
-            f"\n\n⭕️ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐠𝐞𝐭 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 {𝐝𝐢𝐬𝐩𝐚𝐭𝐜𝐡𝐞𝐫.𝐛𝐨𝐭.𝐟𝐢𝐫𝐬𝐭_𝐧𝐚𝐦𝐞} 𝐛𝐲 𝐣𝐨𝐢𝐧𝐢𝐧𝐠 [𝐒𝐋 𝐓𝐞𝐜𝐡 𝐙𝐨𝐧𝐞](𝐡𝐭𝐭𝐩𝐬://𝐭.𝐦𝐞/𝐬𝐥𝐭𝐞𝐜𝐡𝐳𝐨𝐧𝐞).\𝐧"
+            f"\n\n⭕️ If You Can Also Add {𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙛𝙞𝙧𝙨𝙩_𝙣𝙖𝙢𝙚} To Y our Chats By Clicking [Here](𝙝𝙩𝙩𝙥://𝙩.𝙢𝙚/{𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚}?𝙨𝙩𝙖𝙧𝙩𝙜𝙧𝙤𝙪𝙥=𝙩𝙧𝙪𝙚) And Selecting Chat. \n"
+            f"\n\n⭕️ You can get support {𝐝𝐢𝐬𝐩𝐚𝐭𝐜𝐡𝐞𝐫.𝐛𝐨𝐭.𝐟𝐢𝐫𝐬𝐭_𝐧𝐚𝐦𝐞} by joining [ΞLIИA̴ SUPPФЯT](https://t.me/ElinaSupport).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -403,25 +403,25 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Admins Settings👮‍♀️", callback_data="aboutmanu_permis"
+                            text="ᴀᴅᴍɪɴs sᴇᴛᴛɪɴɢs👮‍♀️", callback_data="aboutmanu_permis"
                         ),
                         InlineKeyboardButton(
-                            text="Anti Spam💫", callback_data="aboutmanu_spamprot"
+                            text="ᴀɴᴛɪ sᴘᴀᴍ💫", callback_data="aboutmanu_spamprot"
                         ),
                     ],
-                    [InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*{dispatcher.bot.first_name} 𝗜𝘀 𝘁𝗵𝗲 𝗿𝗲𝗱𝗶𝘀𝗶𝗴𝗻𝗲𝗱 𝘃𝗲𝗿𝘀𝗶𝗼𝗻 𝗼𝗳 𝗦𝗲𝗻𝗸𝘂𝗥𝗼𝗯𝗼𝘁 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗯𝗲𝘀𝘁 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲.*"
-            f"\n\n{dispatcher.bot.first_name}'s 𝒔𝒐𝒖𝒓𝒄𝒆 𝒄𝒐𝒅𝒆 𝒘𝒂𝒔 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒅 𝑩𝒚 [GD Hiruna](https://t.me/hirunaofficial)𝐃𝐞𝐩𝐥𝐨𝐲 𝐛𝐲 [supun](https://t.me/supunma)"
-            f"\n\n𝑰𝒇 𝑨𝒏𝒚 𝑸𝒖𝒆𝒔𝒕𝒊𝒐𝒏 𝑨𝒃𝒐𝒖𝒕 {𝒅𝒊𝒔𝒑𝒂𝒕𝒄𝒉𝒆𝒓.𝒃𝒐𝒕.𝒇𝒊𝒓𝒔𝒕_𝒏𝒂𝒎𝒆}, 𝑳𝒆𝒕 𝑼𝒔 𝑲𝒏𝒐𝒘 𝑨𝒕 @{𝑺𝑼𝑷𝑷𝑶𝑹𝑻_𝑪𝑯𝑨𝑻}.",
+            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Senku Robot For the best performance.*"
+            f"\n\n{dispatcher.bot.first_name}'s Source Code was Developed By [GD Hiruna](https://t.me/hirunaofficial)Deployed By [ᴋᴀsᴜ ʙʀᴏ 🇱🇰](https://t.me/kasu_bro)"
+            f"\n\nIf Any Question About {𝒅𝒊𝒔𝒑𝒂𝒕𝒄𝒉𝒆𝒓.𝒃𝒐𝒕.𝒇𝒊𝒓𝒔𝒕_𝒏𝒂𝒎𝒆}, Let Us Know At @{𝑺𝑼𝑷𝑷𝑶𝑹𝑻_𝑪𝑯𝑨𝑻}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙Back", callback_data="aboutmanu_tac")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_tac")]]
             ),
         )
 
@@ -436,7 +436,7 @@ def DewmiBot_about_callback(update, context):
             f"\n\n✅The message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -465,7 +465,7 @@ def DewmiBot_about_callback(update, context):
             "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]]
             ),
         )
     elif query.data == "aboutmanu_tac":
@@ -527,13 +527,13 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="ＨＥＬＰ",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat",
+                            text="ＳＵＰＰＯＲＴ ＣＨＡＴ",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
@@ -707,7 +707,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="ＳＥＴＴＩＮＧＳ",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -800,7 +800,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝖄𝖊𝖘 𝕴'𝖒 𝖆𝖑𝖎𝖛𝖊 🤭")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝒴𝐸𝒮! 𝐼'𝑀 𝒪𝒩𝐿𝐼𝒩𝐸 🤭")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
