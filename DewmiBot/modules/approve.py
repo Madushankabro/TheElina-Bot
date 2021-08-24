@@ -198,7 +198,7 @@ def unapproveall_btn(update: Update, context: CallbackContext):
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 Sometimes, you might trust a user not to send unwanted content.
 Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
 
@@ -210,6 +210,8 @@ That's what approvals are for - approve of trustworthy users to allow them to se
 ❍ `/unapprove`*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
 ❍ `/approved`*:* List all approved users.
 ❍ `/unapproveall`*:* Unapprove *ALL* users in a chat. This cannot be undone.
+
+©️@TheElinaBot🇱🇰
 
 """
 
@@ -227,6 +229,6 @@ dispatcher.add_handler(APPROVAL)
 dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
-__mod_name__ = "Approval✅"
+__mod_name__ = "Approve✅"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVED, APPROVAL]
