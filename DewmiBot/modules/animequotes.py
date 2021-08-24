@@ -9,7 +9,6 @@ from DewmiBot import dispatcher
 from DewmiBot.modules.disable import DisableAbleCommandHandler
 
 
-
 @run_async
 def animequotes(update: Update, context: CallbackContext):
     update.effective_message.reply_text(random.choice(animequotesstring.ANIMEQUOTES))
