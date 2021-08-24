@@ -502,7 +502,7 @@ def __stats__():
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, the message will be deleted immediately.
 *NOTE:* Blacklist stickers do not affect the group admin
  ❍ `/blsticker`*:* See current blacklisted sticker
@@ -514,9 +514,10 @@ Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, 
 Note:
  ❍ `<sticker link>` can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
  
+ ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "B-stickers🖤 "
+__mod_name__ = "B-sticker🖤 "
 
 BLACKLIST_STICKER_HANDLER = DisableAbleCommandHandler(
     "blsticker", blackliststicker, admin_ok=True
