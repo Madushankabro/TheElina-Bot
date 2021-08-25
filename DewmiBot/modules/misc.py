@@ -613,7 +613,7 @@ def stats(update, context):
 
 # /ip is for private use
 __help__ = """
-@szrosebot🇱🇰
+
  ❍ /gdpr: Deletes your information from the bot's database. Private chats only.
  ❍ /markdownhelp: Quick summary of how markdown works in telegram - can only be called in private chats.
  ❍ /removebotkeyboard: Got a nasty bot keyboard stuck in your group?
@@ -654,9 +654,11 @@ __help__ = """
   ❍ /weather <city>: Gets weather information of particular place!
   
 \
+
+  ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Miscs🕎"
+__mod_name__ = "Misc🕎"
 
 APP_HANDLER = DisableAbleCommandHandler("app", app)
 LYRICS_HANDLER = DisableAbleCommandHandler("lyrics", lyrics, pass_args=True)
