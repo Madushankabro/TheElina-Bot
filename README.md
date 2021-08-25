@@ -1,6 +1,7 @@
-@ Ξ L I N Λ 👸
-<h2>A Powerful, Smart And Simple Group Manager bot </h2>
+<h1 align="center">Ξ L I N Λ 👸</h3> 
+
 <p align="center"><a href="https://t.me/sl_bot_zone"><img src="https://telegra.ph/file/417de2001b4c28e5f696f.jpg"></a></p>
+<h2>A Powerful, Smart And Simple Group Manager bot </h2>
 
 <p align="center">
   <a href="https://github.com/youtubeslgeekshow/szrosebot/stargazers">
@@ -103,3 +104,6 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
   <p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/ad61a6ea82c4d48246a2e.png" width="200"></a></p>
   <p align="right"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/dc29ccaf28f1517834b27.png" width="200"></a></p>
  </details></h3>
+
+
+## This Bot is clone of [@szrosebot](https://t.me/szrosebot). So all credits goes to them.
