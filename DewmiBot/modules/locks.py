@@ -555,7 +555,7 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 Do stickers annoy you? or want to avoid people sharing links? or pictures? \
 You're in the right place!
 The locks module allows you to lock away some common items in the \
@@ -576,9 +576,11 @@ Locking bots will stop non-admins from adding bots to the chat.
  ❍ Unlocking permission *info* will allow members (non-admins) to change the group information, such as the description or the group name
  ❍ Unlocking permission *pin* will allow members (non-admins) to pinned a message in a group
  
+ 
+©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Locks🔐 "
+__mod_name__ = "Lock🔐 "
 
 LOCKTYPES_HANDLER = DisableAbleCommandHandler("locktypes", locktypes)
 LOCK_HANDLER = CommandHandler("lock", lock, pass_args=True)  # , filters=Filters.group)
