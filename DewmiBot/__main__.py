@@ -61,19 +61,19 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There ! [👋](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), My Name Is  *Ξ L I N Λ 👸*. 
+Hay There! [👋](https://telegra.ph/file/417de2001b4c28e5f696f.jpg), My Name Is  *Ξ L I N Λ 👸*. 
 
 I can help to manage your groups with useful features, feel free to add me to your groups! 
-Promote me as **ADMIN**  to let me get in action!
+Promote me as *ADMIN* to let me get in action!
 
-❓ **𝗪𝗛𝗔𝗧 𝗔𝗥𝗘 𝗧𝗛𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦?** ❓
+⁉️ *𝐖𝐇𝐀𝐓 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒?* ⁉️
 Hit  /help to see **all the commands** and how they work!
 """
 
 HELP_STRINGS = f"""
 *↤↤↤↤↤ 『 Ξ L I N Λ   HΞLP MΞИU 』 ↦↦↦↦↦* 
 
-Hay !👋 I'm Ξ L I N Λ [👸](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
+Hay !👋 I'm Ξ L I N Λ [👸](https://telegra.ph/file/417de2001b4c28e5f696f.jpg)
 
 The following funtions will helpful to you to manage your group. 😇
 
@@ -356,7 +356,7 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"Hay man![👋](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg) Click below buttons to know more about me",
+            text=f"Hay man![🇱🇰](https://telegra.ph/file/417de2001b4c28e5f696f.jpg) Click below buttons to know more about me",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
