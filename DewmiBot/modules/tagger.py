@@ -256,10 +256,10 @@ def untagall(update, context):
     )
 
 
-__mod_name__ = "Tagger 🖇"
+__mod_name__ = "Tagger🖇"
 
 __help__ = """ 
-@szrosebot🇱🇰
+
 Tagger is an essential feature to mention all subscribed members in the group. Any chat members can subscribe to tagger.
 
 ❍ /tagme: registers to the chat tag list.
@@ -271,7 +271,7 @@ Tagger is an essential feature to mention all subscribed members in the group. A
 ❍ /addtag <userhandle>: add a user to chat tag list. (via handle, or reply)
 ❍ /removetag <userhandle>: remove a user to chat tag list. (via handle, or reply)
 
-
+  ©️@TheElinaBot🇱🇰
 """
 
 TAG_ALL_HANDLER = DisableAbleCommandHandler("tagall", tagall, filters=Filters.group)
