@@ -356,7 +356,7 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"Hay man!(https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg) Click below buttons to know more about me",
+            text=f"Hay man![👋](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg) Click below buttons to know more about me",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -488,7 +488,7 @@ def DewmiBot_about_callback(update, context):
                         InlineKeyboardButton(
                             text="Credits", callback_data="aboutmanu_credit"
                         ),
-                        InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_"),
                     ]
                 ]
             ),
@@ -511,7 +511,7 @@ def get_help(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="ʜᴇʟᴘ",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -527,13 +527,13 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ＨＥＬＰ",
+                            text="ʜᴇʟᴘ",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ＳＵＰＰＯＲＴ ＣＨＡＴ",
+                            text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
@@ -554,7 +554,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -626,7 +626,7 @@ def settings_button(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="🔙 ʙᴀᴄᴋ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -707,7 +707,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ＳＥＴＴＩＮＧＳ",
+                                text="sᴇᴛᴛɪɴɢs",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
