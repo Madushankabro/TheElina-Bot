@@ -96,12 +96,13 @@ async def delete_messages(event):
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 *Admin only:*
  ❍ /del*:* deletes the message you replied to.
  ❍ /purge*:* deletes all messages between this and the replied to message.
  ❍ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
- 
+
+  ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Purges💣 "
+__mod_name__ = "Purges✡️ "
