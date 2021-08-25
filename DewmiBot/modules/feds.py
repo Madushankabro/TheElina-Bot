@@ -2372,7 +2372,7 @@ def fed_admin_help(update: Update, context: CallbackContext):
 ❍  /fedchats*:* Get all the chats that are connected in the Federation
 ❍  /chatfed *:* See the Federation in the current chat
 
-@szrosebot🇱🇰\n""",
+©️@TheElinaBot🇱🇰\n""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2385,7 +2385,7 @@ def fed_user_help(update: Update, context: CallbackContext):
 ❍  /fednotif <on/off>*:* Federation settings not in PM when there are users who are fbaned/unfbanned
 ❍  /frules*:* See Federation regulations
 
-@szrosebot🇱🇰\n""",
+©️@TheElinaBot🇱🇰\n""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2393,7 +2393,7 @@ def fed_user_help(update: Update, context: CallbackContext):
 __mod_name__ = "Federations🎖"
 
 __help__ = """
-@szrosebot🇱🇰
+
 Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
 But then you have many groups, and you don't want this spammer to be in one of your groups - how can you deal? Do you have to manually block it, in all your groups?\n
 *No longer!* With Federation, you can make a ban in one chat overlap with all other chats.\n
@@ -2405,7 +2405,7 @@ Feds are now divided into 3 sections for your ease.
 ❍ /fedadminhelp*:* Provides help for fed administration commands
 ❍ /feduserhelp*:* Provides help for commands anyone can use
 
-
+©️@TheElinaBot🇱🇰
 """
 
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed)
