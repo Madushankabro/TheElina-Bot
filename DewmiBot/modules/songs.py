@@ -76,7 +76,7 @@ async def song(client, message):
 
 
 __help__ = """
-@szrosebot🇱🇰
+
  *You can either enter just the song name or both the artist and song
   name. *
 
@@ -84,6 +84,7 @@ __help__ = """
  ❍ /video <songname artist(optional)>*:* uploads the video song in it's best quality available
  ❍ /lyrics <song>*:* returns the lyrics of that song.
  
+   ©️@TheElinaBot🇱🇰
 """
 
 __mod_name__ = "Music🎸"
