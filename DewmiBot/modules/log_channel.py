@@ -193,7 +193,7 @@ if is_module_loaded(FILENAME):
         return "No log channel is set for this group!"
 
     __help__ = """
-    @szrosebot🇱🇰
+ 
 *Admins only:*
 ❍ /logchannel*:* get log channel info
 ❍ /setlog*:* set the log channel.
@@ -204,6 +204,7 @@ if is_module_loaded(FILENAME):
  *2.* sending `/setlog` in the channel
  *3.* forwarding the `/setlog` to the group
  
+ ©️@TheElinaBot🇱🇰
 """
 
     __mod_name__ = "Logger🗞 "
