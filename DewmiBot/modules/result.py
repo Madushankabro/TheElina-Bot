@@ -1,6 +1,6 @@
   
 __help__ = """
-@szrosebot🇱🇰
+
 **You can find out your exam results very quickly through me.**
 
  What does I Know 
@@ -19,5 +19,7 @@ __help__ = """
 `Index No`
  
 'Donents.lk Bot' © @uvindbro
+
+©️@TheElinaBot🇱🇰
 """
 __mod_name__ = "Result📚"
