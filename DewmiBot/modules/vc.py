@@ -1,18 +1,18 @@
 __help__ = """
-*  • Groups and channels Voice Chat Music Play 🎙 *
+*• Groups and channels Voice Chat Music Play 🎙*
 
 1️⃣ Make bot admin (Group and in channel if use cplay)
 2️⃣ Start a voice chat
 3️⃣ Try /play [song name] for the first time by an admin
 4️⃣ If userbot joined enjoy music, If not add @vcpalyassistant to your group and retry
  
-* 🔔 For Channel Music Play 🔔 *
+*🔔 For Channel Music Play 🔔*
 
-1️⃣ Make @szrosebot  admin of your channel 
+1️⃣ Make @TheElinaBot  admin of your channel 
 2️⃣ Send /userbotjoinchannel in linked group
 3️⃣ Now send commands in linked group 
 
-* 👥Groups Music Play👥 *
+*👥Groups Music Play👥*
 
 ❍ /play: Play song using youtube music
 ❍ /play [yt url] : Play the given yt url
@@ -50,19 +50,19 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
-4) Add @szrosebot to the channel as an admin.
+4) Add @TheElinaBot to the channel as an admin.
 5) Simply send commands in your group.
  
-* ⚫️More tools⚫️ *
+*⚫️More tools⚫️*
 
 • /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 • /userbotjoin: Invite @vcpalyassistant Userbot to your chat 
  
-* Assisten *
+*Assistent*
 
 @vcpalyassistant
-* 🤖Bot🤖 *
+*🤖Bot🤖*
 
-@szrosebot
+ ©️@TheElinaBot🇱🇰
 """
-__mod_name__ = "VC music Play🎙"
+__mod_name__ = "VC Player🎙"
