@@ -71,6 +71,8 @@ __help__ = """
   ❍ /dart or /dart 1 to 6 any value
  Usage: hahaha just a magic.
  warning: you would be in trouble if you input any other value than mentioned.
+ 
+ ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "GAMES🎮"
+__mod_name__ = "Games🎳"
