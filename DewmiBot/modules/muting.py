@@ -367,7 +367,7 @@ def stemp_mute(update: Update, context: CallbackContext) -> str:
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 *Admins only:*
  ❍ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
  ❍ /smute <userhandle>*:* silences a user without notifying. Can also be used as a reply, muting the replied to user.
@@ -378,7 +378,7 @@ __help__ = """
  _NOTE:_
  If you set Log Channels, you will get logs of Silent mutes. Check *Logger* module to know more about Log Channel.
  
-
+©️@TheElinaBot🇱🇰
 """
 
 MUTE_HANDLER = CommandHandler("mute", mute)
@@ -393,7 +393,7 @@ dispatcher.add_handler(UNMUTE_HANDLER)
 dispatcher.add_handler(TEMPMUTE_HANDLER)
 dispatcher.add_handler(STEMPMUTE_HANDLER)
 
-__mod_name__ = "Muting 🔇"
+__mod_name__ = "Mute🔇"
 __handlers__ = [
     MUTE_HANDLER,
     SMUTE_HANDLER,
