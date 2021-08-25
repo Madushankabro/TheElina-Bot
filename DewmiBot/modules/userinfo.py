@@ -308,7 +308,7 @@ def info(update: Update, context: CallbackContext):
 
     if disaster_level_present:
 
-        text += ' [<a href="https://t.me/sltechzoneofficial">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/ElinaSupport">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)
@@ -526,7 +526,7 @@ def __user_info__(user_id):
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 *ID:*
  ❍ `/id`*:* get the current group id. If used by replying to a message, gets that user's id.
  ❍ `/gifid`*:* reply to a gif to me to tell you its file ID.
@@ -559,7 +559,7 @@ Examples:
  7% if user is AFK
  5% if the user is AFK with reason
  
-
+ ©️@TheElinaBot🇱🇰
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
@@ -582,7 +582,7 @@ dispatcher.add_handler(GET_BIO_HANDLER)
 dispatcher.add_handler(SET_ABOUT_HANDLER)
 dispatcher.add_handler(GET_ABOUT_HANDLER)
 
-__mod_name__ = "Info🔬"
+__mod_name__ = "Info📑"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
 __handlers__ = [
     ID_HANDLER,
