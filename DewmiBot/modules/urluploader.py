@@ -83,9 +83,10 @@ ETA: {}""".format(
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 ❍ `/up`*:* reply to a direct download link to upload it to telegram as files
  
+   ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "URL Upload📤"
+__mod_name__ = "URL Uploader⛓"
