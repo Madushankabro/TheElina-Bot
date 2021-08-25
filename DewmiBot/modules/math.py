@@ -114,7 +114,7 @@ def log(update: Update, context: CallbackContext):
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 Solves complex math problems using https://newton.now.sh
  ❍ /math*:* Math `/math 2^2+2(2)`
  ❍ /factor*:* Factor `/factor x^2 + 2x`
@@ -136,9 +136,11 @@ _Keep in mind_: To find the tangent line of a function at a certain x value, sen
 To find the area under a function, send the request as c:d|f(x) where c is the starting x value, d is the ending x value, and f(x) is the function under which you want the curve between the two x values.
 To compute fractions, enter expressions as numerator(over)denominator. For example, to process 2/4 you must send in your expression as 2(over)4. The result expression will be in standard math notation (1/2, 3/4).
 
+
+©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Math♏️ "
+__mod_name__ = "Maths🔢 "
 
 SIMPLIFY_HANDLER = DisableAbleCommandHandler("math", simplify)
 FACTOR_HANDLER = DisableAbleCommandHandler("factor", factor)
