@@ -61,7 +61,7 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There ! [👋](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), My Name Is **Ξ L I N Λ 👸**. 
+Hay There ! [👋](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), My Name Is  *Ξ L I N Λ 👸*. 
 
 I can help to manage your groups with useful features, feel free to add me to your groups! 
 Promote me as **ADMIN**  to let me get in action!
@@ -356,7 +356,7 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"Hay man! Click below buttons to know more about me",
+            text=f"Hay man!(https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg) Click below buttons to know more about me",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
