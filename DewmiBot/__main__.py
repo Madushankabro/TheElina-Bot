@@ -61,7 +61,7 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There ! [🤗](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), My Name Is **ΞLIИA̴**. 
+Hay There ! [🤗](https://telegra.ph/file/e28811fcf5bcd7bbbf138.jpg), My Name Is **Ξ L I N Λ 👸**. 
 
 I can help to manage your groups with useful features, feel free to add me to your groups! 
 Promote me as **ADMIN**  to let me get in action!
@@ -71,9 +71,9 @@ Hit  /help to see **all the commands** and how they work!
 """
 
 HELP_STRINGS = f"""
-*↤↤↤↤↤ 『 ΞLIИA̴  HΞLP MΞИU 』 ↦↦↦↦↦* 
+*↤↤↤↤↤ 『 Ξ L I N Λ   HΞLP MΞИU 』 ↦↦↦↦↦* 
 
-Hay ! I'm ΞLIИA̴  [🇱🇰](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
+Hay !👋 I'm Ξ L I N Λ [👸](https://telegra.ph/file/a7f8bb76f4d416d003bd9.jpg)
 
 The following funtions will helpful to you to manage your group. 😇
 
@@ -92,22 +92,22 @@ Support them [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗 ➕️", url="http://t.me/TheElinaBot?startgroup=true"),
+            text="🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱", url="http://t.me/TheElinaBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📢 𝘊𝘏𝘈𝘕𝘕𝘌𝘓", url=f"https://t.me/ElinaNews"),
+        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/ElinaNews"),
         InlineKeyboardButton(
-            text="💬 𝘚𝘜𝘗𝘗𝘖𝘙𝘛", url=f"https://t.me/ElinaSupport"
+            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/ElinaSupport"
         ),
     ],
     [
-        InlineKeyboardButton(text=" 𝑅𝐸𝒱𝐼𝐸𝒲 𝒰𝒮 ", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="★ ʀᴇᴠɪᴇᴡ ᴜs ★", callback_data="aboutmanu_"),
         InlineKeyboardButton(
-            text="𝘐𝘕𝘍𝘖 & 𝘈𝘉𝘖𝘜𝘛 ♻️", callback_data="aboutmanu_"
+            text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="aboutmanu_"
         ),
     ],
     [
-        InlineKeyboardButton(text=" ❗️ 𝘏𝘌𝘓𝘗 & 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚 ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="⁉️ ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
     ],
 ]
 IMPORTED = {}
@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
 
@@ -302,7 +302,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="", callback_data="help_back")]]
                 ),
             )
 
@@ -363,20 +363,20 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url= "http://t.me/kasu_bro"
+                            text="⛑ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⛑", url= "http://t.me/kasu_bro"
                         ),
                         InlineKeyboardButton(
-                            text="sᴜᴘᴘᴏʀᴛ ᴍᴇ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                            text="🕹 sᴜᴘᴘᴏʀᴛ ᴍᴇ 🕹", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ʙᴏᴛs ᴄʜᴀɴɴᴇʟ", url= "https://t.me/FreeNetSL"
+                            text="🤖 ʙᴏᴛs ᴄʜᴀɴɴᴇʟ 🤖", url= "https://t.me/epusthakalaya_bots"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ʀᴇᴘᴏ ᴄʀᴇᴅɪᴛs", url= "https://github.com/youtubeslgeekshow/szrosebot"
+                            text="💾 ʀᴇᴘᴏ ᴄʀᴇᴅɪᴛs 💾", url= "https://github.com/youtubeslgeekshow/szrosebot"
                         )
                     ],
                     [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
