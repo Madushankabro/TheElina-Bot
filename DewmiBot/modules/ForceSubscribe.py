@@ -176,7 +176,7 @@ def config(client, message):
 
 
 __help__ = """
-@TheElinaBot🇱🇰
+
 *ForceSubscribe:*
 ❍ RoseBot can mute members who are not subscribed your channel until they subscribe.
 ❍ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them.
@@ -194,5 +194,6 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 
 ⚠️ Note:  /FSub is an alias of /ForceSubscribe
 
+ ©️@TheElinaBot🇱🇰
 """
 __mod_name__ = "Force-Sub🔇"
