@@ -98,7 +98,7 @@ def ding(update: Update, context: CallbackContext):
     uptime = get_readable_time((time.time() - StartTime))
 
     messageX.edit_text(
-        "ＰＯＮＧ！!\n"
+        "𝙋𝙊𝙉𝙂!!\n"
         "<b>Time Taken:</b> <code>{}</code>\n"
         "<b>Service uptime:</b> <code>{}</code>".format(telegram_ping, uptime),
         parse_mode=ParseMode.HTML,
