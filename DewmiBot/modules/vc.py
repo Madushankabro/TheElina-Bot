@@ -1,4 +1,5 @@
 __help__ = """
+
 *• Groups and channels Voice Chat Music Play 🎙*
 
 1️⃣ Make bot admin (Group and in channel if use cplay)
@@ -58,10 +59,9 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 • /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 • /userbotjoin: Invite @vcpalyassistant Userbot to your chat 
  
-*Assistent*
+*Assistent* >> @vcpalyassistant
+*🤖Bot🤖* >> @TheElinaBot
 
-@vcpalyassistant
-*🤖Bot🤖*
 
  ©️@TheElinaBot🇱🇰
 """
