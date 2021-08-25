@@ -491,7 +491,7 @@ def goodmorning(update, context):
 
 
 __help__ = """
-@szrosebot🇱🇰
+
 *Some dank memes for fun or whatever!*
  ❍ /sanitize*:* Sanitize Your Self
  ❍ /shrug or /cri*:* Get shrug or ToT.
@@ -528,9 +528,11 @@ Some other regex filters are:
 Suzuya will reply random strings accordingly when these words are used!
 All regex filters can be disabled incase u don't want... like: `/disable goodnight`.
 
+ ©️@TheElinaBot🇱🇰
+
 """
 
-__mod_name__ = "Memes ☢️"
+__mod_name__ = "Memes❇️"
 
 
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat)
