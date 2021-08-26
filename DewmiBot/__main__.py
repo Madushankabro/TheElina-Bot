@@ -366,7 +366,7 @@ def DewmiBot_about_callback(update, context):
                             text="⛑ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⛑", url= "http://t.me/kasu_bro"
                         ),
                         InlineKeyboardButton(
-                            text="🕹 sᴜᴘᴘᴏʀᴛ ᴍᴇ 🕹", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                            text="👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/epusthakalayabotsupport"
                         ),
                     ],
                     [
