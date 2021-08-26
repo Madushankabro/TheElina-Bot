@@ -4,13 +4,13 @@
 <h2>A Powerful, Smart And Simple Group Manager bot </h2>
 
 <p align="center">
-  <a href="https://github.com/youtubeslgeekshow/szrosebot/stargazers">
-    <img src="https://img.shields.io/github/stars/youtubeslgeekshow/szrosebot?style=social">
+  <a href="https://github.com/Madushankabro/TheElina-Bot/stargazers">
+    <img src="https://img.shields.io/github/stars/Madushankabro/TheElina-Bot?style=social">
 
   </a>
   
-  <a href="https://github.com/youtubeslgeekshow/szrosebot/fork">
-    <img src="https://img.shields.io/github/forks/youtubeslgeekshow/szrosebot?label=Fork&style=social">
+  <a href="https://github.com/Madushankabro/TheElina-Bot/fork">
+    <img src="https://img.shields.io/github/forks/Madushankabro/TheElina-Bot?label=Fork&style=social">
 
   </a>  
 </p>
@@ -54,10 +54,12 @@ Contributions are welcome.
 Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot) ❤️
 
 ### Support Group 🇱🇰
-<a href="https://t.me/slbotzone"><img src="https://img.shields.io/badge/Telegram-Join%20Support%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/epusthakalayabotsupport"><img src="https://img.shields.io/badge/Telegram-Join%20Support%20Group-blue.svg?logo=telegram"></a>
  
 ### Updates Channel 🇱🇰
-<a href="https://t.me/sl_bot_zone"><img src="https://img.shields.io/badge/Telegram-Join%20Updates%20Channel-blue.svg?logo=telegram"></a>
+<a href="https://t.me/epusthakalaya_bots"><img src="https://img.shields.io/badge/Telegram-Join%20Updates%20Channel-blue.svg?logo=telegram"></a>
+
+
 
 <details>
   <summary><b>Credits ❤</b></summary>
@@ -68,42 +70,29 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
   - <b> GRANDROBOT </b>
   - <b>  Leo media search bot </b>
   - <b> DewmiBot </b>
-  
+  - <b> szrosebot </b>
 </details>
 
-<details>
-  <summary><b> New features</b></summary>
-<br>
-  - <b> vc play </b>
-  - <b> inline  search  </b>
-  - <b> new start menu </b>
-  - <b> fun / logo /carbon /etc.. </b>
-  - <b>  help menu change </b>
-  - <b> and more</b>
-  
-</details>
+
+## This Bot is clone of [@szrosebot](https://t.me/szrosebot). So all credits goes to them.
+
 
 
 | **Platform** |  **Follow now**   |
 |------------|---------------------|
-|   Youtube   | [![Code Palace](https://img.shields.io/youtube/channel/subscribers/UCvYfJcTr8RY72dIapzMqFQA?label=slgeekshow%20show&style=social)](https://www.youtube.com/c/SLGeeKShows/videos) |
-|  Telegram    | [![Telegram](https://img.shields.io/badge/slbotzone%20Team-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/slbotzone)&nbsp;|
-|  Facebook  | [![Facebook](https://img.shields.io/badge/Follow%20me%20on%20Facebook-2533cf?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=facebook)](https://www.facebook.com/SL-Geek-Show-yt-103654258471929/)&nbsp;|
-|  Intagram | [![Intagram](https://img.shields.io/badge/Follow%20me%20on%20Instagram-4d267a?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=instagram)](https://www.instagram.com/sl_geek_show/)&nbsp; |
-| Github | [![GitHub followers](https://img.shields.io/github/followers/youtubeslgeekshow.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/youtubeslgeekshow?tab=followers) |
+|   Youtube   | [![Code Palace](https://img.shields.io/youtube/channel/subscribers/UC2COV4jPD1hHbQMJuPnA3HA?label=E%20PUSTHAKALAYA%20BOTs%20™&style=social)](https://www.youtube.com/channel/UC2COV4jPD1hHbQMJuPnA3HA/videos) |
+|  Telegram    | [![Telegram](https://img.shields.io/badge/E%20PUSTHAKALAYA%20BOTs%20™-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/epusthakalaya_bots)&nbsp;|
+|  Facebook  | [![Facebook](https://img.shields.io/badge/Follow%20me%20on%20Facebook-2533cf?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=facebook)](https://www.facebook.com/kasuntha.madushanka.18/)&nbsp;|
+| Github | [![GitHub followers](https://img.shields.io/github/followers/Madushankabro.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Madushankabro?tab=followers) |
 
-<h3><details>
-  <summary><b>Don't Open this path </b></summary>
-  <p><a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA" title="How to create Bot useing python ">How to create Bot useing python</a>
- </details></h3>
  
  
  <h3><details>
-  <summary><b>Screen shot of this bot📸 </b></summary>
-  <p align="left"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/c4fa09386de4c4176323f.png" width="200"></a></p>
-  <p align="center"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/ad61a6ea82c4d48246a2e.png" width="200"></a></p>
-  <p align="right"><a href="https://t.me/szrosebot"><img src="https://telegra.ph/file/dc29ccaf28f1517834b27.png" width="200"></a></p>
+  <summary><b>Screen shots📸 </b></summary>
+  <p align="left"><a href="https://t.me/TheElinaBot"><img src="https://telegra.ph/file/c4fa09386de4c4176323f.png" width="200"></a></p>
+  <p align="center"><a href="https://t.me/TheElinaBot"><img src="https://telegra.ph/file/ad61a6ea82c4d48246a2e.png" width="200"></a></p>
+  <p align="right"><a href="https://t.me/TheElinaBot"><img src="https://telegra.ph/file/dc29ccaf28f1517834b27.png" width="200"></a></p>
  </details></h3>
 
 
-## This Bot is clone of [@szrosebot](https://t.me/szrosebot). So all credits goes to them.
+
