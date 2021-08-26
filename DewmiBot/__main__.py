@@ -66,12 +66,12 @@ Hay There! [👋](https://telegra.ph/file/417de2001b4c28e5f696f.jpg), My Name Is
 I can help to manage your groups with useful features, feel free to add me to your groups! 
 Promote me as *ADMIN* to let me get in action!
 
-⁉️ *𝐖𝐇𝐀𝐓 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒?* ⁉️
+⁉️ 𝐖𝐇𝐀𝐓 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒? ⁉️
 Hit  /help to see **all the commands** and how they work!
 """
 
 HELP_STRINGS = f"""
-*↤↤↤↤↤ 『 Ξ L I N Λ   HΞLP MΞИU 』 ↦↦↦↦↦* 
+*↤↤↤↤ 『 Ξ L I N Λ   HΞLP MΞИU 』 ↦↦↦↦*
 
 Hay !👋 I'm Ξ L I N Λ [👸](https://telegra.ph/file/417de2001b4c28e5f696f.jpg)
 
@@ -293,7 +293,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*↤↤↤↤↤ 『 HΞLP FФ𝚁   {}   MФDULΞ 』 ↦↦↦↦↦*".format(
+                "*↤↤↤↤ 『 HΞLP FФ𝚁   {}   MФDULΞ 』 ↦↦↦↦*".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
