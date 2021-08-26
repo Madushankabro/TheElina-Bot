@@ -67,7 +67,7 @@ I can help to manage your groups with useful features, feel free to add me to yo
 Promote me as *ADMIN* to let me get in action!
 
 ⁉️ 𝐖𝐇𝐀𝐓 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒? ⁉️
-Hit  /help to see **all the commands** and how they work!
+Hit  /help to see *all the commands* and how they work!
 """
 
 HELP_STRINGS = f"""
@@ -101,7 +101,7 @@ BUTTONS = [
         ),
     ],
     [
-        InlineKeyboardButton(text="★ ʀᴇᴠɪᴇᴡ ᴜs ★", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="★ ʀᴇᴠɪᴇᴡ ᴜs ★", url=f"https://t.me/tlgrmcbot?start=theelinabot"),
         InlineKeyboardButton(
             text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="aboutmanu_"
         ),
