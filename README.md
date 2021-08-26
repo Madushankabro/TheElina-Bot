@@ -16,7 +16,7 @@
 </p>
 
 
-## Avaiilable a latest version as  [Ξ L I N Λ 👸](https://t.me/szrosebot) on Telegram
+## Avaiilable a latest version as  [Ξ L I N Λ 👸](https://t.me/TheElinaBot) on Telegram
 
 ### Self-hosting (For Devs) vps
 ```sh
@@ -40,8 +40,8 @@ $ python3 -m DewmiBot
 <br>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/szrosebot">
-     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  <a href="https://heroku.com/deploy?template=https://github.com/Madushankabro/TheElina-Bot">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku">
   </a>
 </p>
   
