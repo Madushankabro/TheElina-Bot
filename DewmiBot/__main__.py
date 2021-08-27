@@ -376,7 +376,7 @@ def DewmiBot_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="💾 ʀᴇᴘᴏ ᴄʀᴇᴅɪᴛs 💾", url= "https://github.com/youtubeslgeekshow/szrosebot"
+                            text="💾 ʀᴇᴘᴏ ᴄʀᴇᴅɪᴛs 💾", url= "https://github.com/youtubeslgeekshow/sz-rosebot.git"
                         )
                     ],
                     [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
