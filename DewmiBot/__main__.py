@@ -800,7 +800,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝒴𝐸𝒮! 𝐼'𝑀 𝒪𝒩𝐿𝐼𝒩𝐸 🤭")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ʏᴇs! ɪ'ᴍ ᴏɴʟɪɴᴇ ✅")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
