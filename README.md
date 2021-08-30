@@ -61,17 +61,6 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
 
 
 
-<details>
-  <summary><b>Credits ❤</b></summary>
-<br>
-  - <b> DaisyX music </b>
-  - <b> Anki Vector </b>
-  - <b>  Hexzy 🇵 🇷 🇴 </b>
-  - <b> GRANDROBOT </b>
-  - <b>  Leo media search bot </b>
-  - <b> DewmiBot </b>
-  - <b> szrosebot </b>
-</details>
 
 
 ## This Bot is clone of [@szrosebot](https://t.me/szrosebot). So all credits goes to them.
@@ -87,12 +76,16 @@ Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](
 
  
  
- <h3><details>
-  <summary><b>Screen shots📸 </b></summary>
-  <p align="left"><a href="https://t.me/TheElinaBot"><img src="https://telegra.ph/file/c4fa09386de4c4176323f.png" width="200"></a></p>
-  <p align="center"><a href="https://t.me/TheElinaBot"><img src="https://telegra.ph/file/ad61a6ea82c4d48246a2e.png" width="200"></a></p>
-  <p align="right"><a href="https://t.me/TheElinaBot"><img src="https://telegra.ph/file/dc29ccaf28f1517834b27.png" width="200"></a></p>
- </details></h3>
-
+ <details>
+  <summary><b>Credits ❤</b></summary>
+<br>
+  - <b> DaisyX music </b>
+  - <b> Anki Vector </b>
+  - <b>  Hexzy 🇵 🇷 🇴 </b>
+  - <b> GRANDROBOT </b>
+  - <b>  Leo media search bot </b>
+  - <b> DewmiBot </b>
+  - <b> szrosebot </b>
+</details>
 
 
