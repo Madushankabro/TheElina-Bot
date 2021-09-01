@@ -293,7 +293,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*↤↤↤↤ 『 HΞLP FФ𝚁   {}   MФDULΞ 』 ↦↦↦↦*".format(
+                "⚊❮❮❮ 『 HΞLP FO𝚁 *{}* MODULΞ 』❯❯❯⚊".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
