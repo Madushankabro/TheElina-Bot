@@ -71,9 +71,9 @@ Hit  /help to see *all the commands* and how they work!
 """
 
 HELP_STRINGS = f"""
-*↤↤↤↤ 『 Ξ L I N Λ   HΞLP MΞИU 』 ↦↦↦↦*
+*⚊❮❮❮『 Ξ L I N Λ  HΞLP MΞИU 』❯❯❯⚊*
 
-Hay !👋 I'm Ξ L I N Λ [👸](https://telegra.ph/file/417de2001b4c28e5f696f.jpg)
+Hay !👋 I'm  Ξ L I N Λ [👸](https://telegra.ph/file/417de2001b4c28e5f696f.jpg)
 
 The following funtions will helpful to you to manage your group. 😇
 
@@ -293,7 +293,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "⚊❮❮❮ 『 HΞLP FO𝚁 *{}* MODULΞ 』❯❯❯⚊".format(
+                "⚊❮❮❮『 HΞLP FO𝚁 *{}* MODULΞ 』❯❯❯⚊".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
