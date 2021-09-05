@@ -1,6 +1,6 @@
 <h1 align="center">Ξ L I N Λ 👸</h3> 
 
-<p align="center"><a href="https://t.me/sl_bot_zone"><img src="https://telegra.ph/file/417de2001b4c28e5f696f.jpg"></a></p>
+<p align="center"><a href="https://t.me/sl_bot_zone"><img src="https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg"></a></p>
 <h2>A Powerful, Smart And Simple Group Manager bot </h2>
 
 <p align="center">
