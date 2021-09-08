@@ -1,4 +1,4 @@
-__help__ = """
+_help_ = """
 
 *• Groups and channels Voice Chat Music Play 🎙*
 
