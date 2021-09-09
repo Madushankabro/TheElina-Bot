@@ -107,7 +107,7 @@ BUTTONS = [
         ),
     ],
     [
-        InlineKeyboardButton(text="⁉️ ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
+        InlineKeyboardButton(text="⁉️ ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ⁉️", url=f"http://t.me/TheElinaBot?start=help"),
     ],
 ]
 IMPORTED = {}
