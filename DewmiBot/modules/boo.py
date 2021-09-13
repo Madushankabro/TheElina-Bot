@@ -1,6 +1,6 @@
 __help__ = """
 
-** book  **
+** Now you can search books via me.  **
  ❍ /sbook  <book name > : Search any book useing this bot  
  
  ©️@TheElinaBot🇱🇰
