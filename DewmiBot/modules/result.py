@@ -22,4 +22,4 @@ __help__ = """
 
 ©️@TheElinaBot🇱🇰
 """
-__mod_name__ = "Result📚"
+__mod_name__ = "Results🏆"
