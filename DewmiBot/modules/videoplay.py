@@ -1,4 +1,4 @@
-__help__ = """
+_help_ = """
 
 📚 All Command List:
 ❍ /vplay (reply to video or file) - to stream video
