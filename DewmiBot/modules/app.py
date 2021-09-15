@@ -11,7 +11,7 @@ from urllib.parse import urlencode
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image
-from DewmiBot import GoogleSearch
+from search_engine_parser import GoogleSearch
 
 import bs4
 import html2text
