@@ -1,6 +1,5 @@
 import os
 import html
-import nekos
 import requests
 
 
