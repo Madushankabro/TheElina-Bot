@@ -45,13 +45,12 @@ def ud(bot: Bot, update: Update):
 __help__ = """
 
 *Available Commands*
- - /ud <expression> :- Returns the top definition of the word or expression on Urban Dictionary.
+ - /ud <expression> :- Returns the top definition of the word or expression on URBAN DICTIONARY.
  
- <i>STILL BEING UPDATED! PLEASE WAIT FEW SECONDS!</i>
  ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "UR-DICTIONARY📓"
+__mod_name__ = "URBAN-DIC📓"
 
 ud_handle = DisableAbleCommandHandler("ud", ud)
 
