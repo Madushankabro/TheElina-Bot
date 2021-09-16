@@ -273,4 +273,4 @@ __help__ = """
  ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Music🎶"
+__mod_name__ = "MUSIC🎶"
