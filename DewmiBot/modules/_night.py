@@ -7,4 +7,4 @@ and Automatically openned at 6am(IST) To Prevent Night Spams.
  ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "NIGHT MODE🌖"
+__mod_name__ = "NIGHT"
