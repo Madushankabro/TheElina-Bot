@@ -28,4 +28,4 @@ __help__ = """
  
   ©️@TheElinaBot🇱🇰
 """
-__mod_name__ = "Elina Special🎉"
+__mod_name__ = "ELINA SPECIAL🎉"
