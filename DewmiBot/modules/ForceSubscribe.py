@@ -196,4 +196,4 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 
  ©️@TheElinaBot🇱🇰
 """
-__mod_name__ = "Force-Sub📢"
+__mod_name__ = "FORCE-SUB📢"
