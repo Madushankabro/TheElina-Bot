@@ -9,7 +9,7 @@ from telegram.utils.helpers import mention_html
 
 from DewmiBot import (
     dispatcher,
-    WHITELIST_USERS,
+    WOLVES,
     SARDEGNA_USERS,
     SUPPORT_USERS,
     SUDO_USERS,
