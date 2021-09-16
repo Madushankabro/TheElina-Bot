@@ -47,10 +47,11 @@ __help__ = """
 *Available Commands*
  - /ud <expression> :- Returns the top definition of the word or expression on Urban Dictionary.
  
+ <i>STILL BEING UPDATED! PLEASE WAIT FEW SECONDS!</i>
  ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "URBAN DICTIONARY📓"
+__mod_name__ = "UR-DICTIONARY📓"
 
 ud_handle = DisableAbleCommandHandler("ud", ud)
 
