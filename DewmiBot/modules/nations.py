@@ -7,7 +7,7 @@ from telegram import Update, ParseMode, TelegramError
 from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 
-from tg_bot import (
+from DewmiBot import (
     dispatcher,
     WHITELIST_USERS,
     SARDEGNA_USERS,
