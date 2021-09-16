@@ -151,7 +151,7 @@ async def ws(event):
         await event.delete()
         st = sender.first_name
         hh = sender.id
-        final = f"**NSFW DETECTED**\n\n[{st}](tg://user?id={hh}) your message contain NSFW content.. So, **Hermione** deleted the message\n\n **Nsfw Sender - User / Bot :** [{st}](tg://user?id={hh})  \n\n ⚔️Automatic Detections Powered By [HermioneAI](https://telegra.ph/file/95ad9482156c28ef3184b.jpg) \n\n**#GROUP_GUARDIAN** "
+        final = f"**NSFW DETECTED**\n\n[{st}](tg://user?id={hh}) your message contain NSFW content.. So, **Ξ L I N Λ 👸** deleted the message\n\n **Nsfw Sender - User / Bot :** [{st}](tg://user?id={hh})  \n\n ⚔️Automatic Detections Powered By [HermioneAI](https://telegra.ph/file/95ad9482156c28ef3184b.jpg) \n\n**#GROUP_GUARDIAN** "
         dev = await event.respond(final)
         await asyncio.sleep(30)
         await dev.delete()
@@ -216,7 +216,7 @@ async def nsfw_watch(client, message):
             Escobar = midhun.id
         await client.send_message(
             message.chat.id,
-            f"**NSFW DETECTED**\n\n{hehe}'s message contain NSFW content.. So, **Ξ L I N Λ 👸** deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By HermioneAI` \n**#GROUP_GUARDIAN** ",
+            f"**NSFW DETECTED**\n\n{hehe}'s message contain NSFW content.. So, **Ξ L I N Λ 👸** deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By Ξ L I N Λ 👸` \n**#GROUP_GUARDIAN** ",
         )
         message.continue_propagation()
  
