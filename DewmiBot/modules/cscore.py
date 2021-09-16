@@ -47,4 +47,4 @@ __help__ = """
 
 ©️@TheElinaBot🇱🇰
 """
-__mod_name__ = "Cric score🏏 "
+__mod_name__ = "CRICKET🏏 "
