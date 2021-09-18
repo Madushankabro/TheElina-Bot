@@ -2352,7 +2352,7 @@ def fed_owner_help(update: Update, context: CallbackContext):
 ❍  /fbroadcast <message>*:* Broadcasts a messages to all groups that have joined your fed
 ❍  /fedsubs*:* Shows the feds your group is subscribed to `(broken rn)`
 
-@szrosebot🇱🇰""",
+©️@TheElinaBot🇱🇰""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2390,7 +2390,7 @@ def fed_user_help(update: Update, context: CallbackContext):
     )
 
 
-__mod_name__ = "Federations🎖"
+__mod_name__ = "FEDERATIONS🎖"
 
 __help__ = """
 
