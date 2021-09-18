@@ -256,11 +256,11 @@ def untagall(update, context):
     )
 
 
-__mod_name__ = "Tagger🖇"
+__mod_name__ = "TAG ALL🛎"
 
 __help__ = """ 
 
-Tagger is an essential feature to mention all subscribed members in the group. Any chat members can subscribe to tagger.
+Tagall is an essential feature to mention all subscribed members in the group. Any chat members can subscribe to tagger.
 
 ❍ /tagme: registers to the chat tag list.
 ❍ /untagme: unsubscribes from the chat tag list.
