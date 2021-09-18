@@ -217,4 +217,4 @@ __help__ = """
   ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Zipper📁"
+__mod_name__ = "ZIPPER📁"
