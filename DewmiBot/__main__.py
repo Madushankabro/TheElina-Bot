@@ -399,7 +399,7 @@ def DewmiBot_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]]
+                [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]
             ),
         )
         
@@ -412,7 +412,7 @@ def DewmiBot_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]]
+                [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto")]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -433,7 +433,7 @@ def DewmiBot_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto"),
                  
-                 ]
+                 ],
                 ]
             ),
         )
@@ -466,7 +466,7 @@ def DewmiBot_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_howto"),
                  
-                 ]
+                 ],
                 ]
             ),
         )
