@@ -8,4 +8,4 @@ __help__ = """
 • Youtube Downloader 🎵
 Developed by:- [TEAM ELINA](https://t.me/ElinaNews)
 """
-__mod_name__ = "ABOUT"
+__mod_name__ = "ABOUT🔆"
