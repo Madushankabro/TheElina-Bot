@@ -70,6 +70,9 @@ Promote me as *ADMIN* to let me get in action!
 Hit  /help to see *all the commands* and how they work!
 """
 
+PM_IMG = "https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg"
+
+
 HELP_STRINGS = f"""
 *⚊❮❮❮『 Ξ L I N Λ  HΞLP MΞИU 』❯❯❯⚊*
 
