@@ -140,7 +140,7 @@ To compute fractions, enter expressions as numerator(over)denominator. For examp
 ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Maths🔢 "
+__mod_name__ = "MATHS🔢 "
 
 SIMPLIFY_HANDLER = DisableAbleCommandHandler("math", simplify)
 FACTOR_HANDLER = DisableAbleCommandHandler("factor", factor)
