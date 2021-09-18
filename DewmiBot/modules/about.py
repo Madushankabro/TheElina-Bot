@@ -3,7 +3,7 @@ __help__ = """
 * Ξ L I N Λ 👸 - Anime Themed Powerful Telegram Group Manager Bot.*
 
 ✮───────────────✮
-Powerful Abilities
+𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐀𝐁𝐈𝐋𝐈𝐓𝐈𝐄𝐒
 ✮───────────────✮
 • File To Link and URL Upload 📂
 • Youtube Downloader 🎵
