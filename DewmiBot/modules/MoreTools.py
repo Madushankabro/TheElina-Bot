@@ -26,6 +26,9 @@ __help__ = """
 * More *
  ❍ /phone <tp no> : Track Phone no
  
+ *Time*
+ ❍ /time <country> : Provide a country name/abbreviation/timezone to find.
+ 
   ©️@TheElinaBot🇱🇰
 """
 __mod_name__ = "ELINA SPECIAL🎉"
