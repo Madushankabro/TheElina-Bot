@@ -5,4 +5,4 @@ __help__ = """
  
    ©️@TheElinaBot🇱🇰
 """
-__mod_name__ = "Youtube🥌"
+__mod_name__ = "YOUTUBE🥌"
