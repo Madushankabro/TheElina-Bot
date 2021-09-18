@@ -356,29 +356,28 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"Hay man![🇱🇰](https://telegra.ph/file/417de2001b4c28e5f696f.jpg) Click below buttons to know more about me.",
+            text=f"** Here's basic Help regarding* *How to use Me? **"
+            f"\n\n Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
+            f"\n\n After adding promote me manually with full rights for faster experience.\n"
+            f"\n\n Than send `/admincache@TheElinaBot` in that chat to refresh admin list in My database.\n"
+            f"\n\n *All done now use below given button's to know about use!*\n"
+            f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="⛑ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⛑", url= "http://t.me/kasu_bro"
-                        ),
-                        InlineKeyboardButton(
-                            text="👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/epusthakalayabotsupport"
-                        ),
+                            text="★ʀᴇᴠɪᴇᴡ ᴜs★", url=f"https://t.me/tlgrmcbot?start=theelinabot")
                     ],
                     [
-                        InlineKeyboardButton(
-                            text="🤖 ʙᴏᴛs ᴄʜᴀɴɴᴇʟ 🤖", url= "https://t.me/epusthakalaya_bots"
-                        )
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="💾 ʀᴇᴘᴏ ᴄʀᴇᴅɪᴛs 💾", url= "https://github.com/youtubeslgeekshow/sz-rosebot.git"
-                        )
-                    ],
+                    InlineKeyboardButton(text="Aᴅᴍɪɴ👑", callback_data="aboutmanu_credit"),
+                    InlineKeyboardButton(text="Nᴏᴛᴇs📝", callback_data="aboutmanu_permis"),
+                 ],,
+                    
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ👥", callback_data="aboutmanu_spamprot"),
+                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ💳", callback_data="aboutmanu_tac"),
+                 ],
                     [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
