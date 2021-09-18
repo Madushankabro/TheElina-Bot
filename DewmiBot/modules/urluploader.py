@@ -89,4 +89,4 @@ __help__ = """
    ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "URL Uploader⛓"
+__mod_name__ = "URL UPLODER⛓"
