@@ -51,7 +51,7 @@ $ python3 -m DewmiBot
 Contributions are welcome.
 
 ## Special Thanks 
-Imported all codes from [hirunaofficial/Telegram-Group-Management-Bot-DewmiBot](https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot) ❤️
+Imported all codes from [DewmiBot](https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot) ❤️
 
 ### Support Group 🇱🇰
 <a href="https://t.me/epusthakalayabotsupport"><img src="https://img.shields.io/badge/Telegram-Join%20Support%20Group-blue.svg?logo=telegram"></a>
