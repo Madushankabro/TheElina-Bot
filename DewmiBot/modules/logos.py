@@ -21,7 +21,8 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/e354ce72d5cc6a1d27c4d.jpg",
                          "https://telegra.ph/file/eb0ac1557668a98a38cb6.jpg", 
                          "https://telegra.ph/file/fdb3691a17a2c91fbe76c.jpg", 
                          "https://telegra.ph/file/ccdf69ebf6cb85c52a25b.jpg",
-                         "https://telegra.ph/file/2adffc55ac0c9733ecc7f.jpg", 
+                         "https://telegra.ph/file/2adffc55ac0c9733ecc7f.jpg",
+                         "https://telegra.ph/file/f4430cd708a87fdd9f81b.jpg",
                          "https://telegra.ph/file/faca3b435da33f2f156f1.jpg", 
                          "https://telegra.ph/file/93d0a48c31e16f036f0e8.jpg", 
                          "https://telegra.ph/file/9ed89dc742b172a779312.jpg",
@@ -100,7 +101,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=5, stroke_fill="red")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By  ©️@TheElinaBot🇱🇰")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By  @TheElinaBot🇱🇰")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -137,11 +138,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @szrosebot🇱🇰")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By @TheElinaBot🇱🇰🇰")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Join with us ~ @sl_bot_zone to use this, {e}')
+   await event.reply(f'Join with us ~ @ElinaSupport to use this, {e}')
 
 @register(pattern="^carbon ?(.*)")
 async def lego(event):
@@ -174,7 +175,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=5, stroke_fill="black")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By  ©️@TheElinaBot🇱🇰")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By  @TheElinaBot🇱🇰")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -212,7 +213,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By  ©️@TheElinaBot🇱🇰")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By  @TheElinaBot🇱🇰")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -233,4 +234,4 @@ __help__ = """
  
   ©️@TheElinaBot🇱🇰
  """
-__mod_name__ = "Logo🀄️"
+__mod_name__ = "LOGO🎭"
