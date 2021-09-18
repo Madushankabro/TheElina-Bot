@@ -105,4 +105,4 @@ __help__ = """
   ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Purges✡️ "
+__mod_name__ = "PURGE✡️ "
