@@ -129,7 +129,7 @@ __help__ = """
    ©️@TheElinaBot🇱🇰
 """
 
-__mod_name__ = "Rules⁉️"
+__mod_name__ = "RULES⁉️"
 
 GET_RULES_HANDLER = CommandHandler("rules", get_rules, filters=Filters.group)
 SET_RULES_HANDLER = CommandHandler("setrules", set_rules, filters=Filters.group)
