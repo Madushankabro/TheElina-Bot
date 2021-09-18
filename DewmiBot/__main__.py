@@ -368,16 +368,22 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="★ʀᴇᴠɪᴇᴡ ᴜs★", url=f"https://t.me/tlgrmcbot?start=theelinabot")
+                            text="⛑ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⛑", url= "http://t.me/kasu_bro"
+                        ),
+                        InlineKeyboardButton(
+                            text="👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/epusthakalayabotsupport"
+                        ),
                     ],
                     [
-                    InlineKeyboardButton(text="Aᴅᴍɪɴ👑", callback_data="aboutmanu_credit"),
-                    InlineKeyboardButton(text="Nᴏᴛᴇs📝", callback_data="aboutmanu_permis"),
-                 ],,
-                    
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ👥", callback_data="aboutmanu_spamprot"),
-                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ💳", callback_data="aboutmanu_tac"),
-                 ],
+                        InlineKeyboardButton(
+                            text="🤖 ʙᴏᴛs ᴄʜᴀɴɴᴇʟ 🤖", url= "https://t.me/epusthakalaya_bots"
+                        )
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="💾 ʀᴇᴘᴏ ᴄʀᴇᴅɪᴛs 💾", url= "https://github.com/youtubeslgeekshow/sz-rosebot.git"
+                        )
+                    ],
                     [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
@@ -415,7 +421,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Senku Robot For the best performance.*"
-            f"\n\n{dispatcher.bot.first_name}'s Source Code was Developed By [GD Hiruna](https://t.me/hirunaofficial)Deployed By [ᴋᴀsᴜ ʙʀᴏ 🇱🇰](https://t.me/kasu_bro)"
+            f"\n\n{dispatcher.bot.first_name}'s Source Code was Written By [GD Hiruna](https://t.me/hirunaofficial)Deployed By [ᴋᴀsᴜ ʙʀᴏ 🇱🇰](https://t.me/kasu_bro)"
             f"\n\nIf Any Question About {𝒅𝒊𝒔𝒑𝒂𝒕𝒄𝒉𝒆𝒓.𝒃𝒐𝒕.𝒇𝒊𝒓𝒔𝒕_𝒏𝒂𝒎𝒆}, Let Us Know At @{𝑺𝑼𝑷𝑷𝑶𝑹𝑻_𝑪𝑯𝑨𝑻}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
