@@ -1,9 +1,10 @@
 __help__ = """
+
 ** Ξ L I N Λ 👸 - A Powerful Telegram Group Manager 🎶 **
 
-✮────────────────────✮
-  Powerful Abilities
-✮────────────────────✮
+✮───────────────✮
+Powerful Abilities
+✮───────────────✮
 • File To Link and URL Upload 📂
 • Youtube Downloader 🎵
 Developed by:- [TEAM ELINA](https://t.me/ElinaNews)
