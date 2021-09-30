@@ -34,13 +34,15 @@ $ python3 -m DewmiBot
 
 ### Easy Way
 ## Deploy To Heroku
+go to[@TeamElina](https://github.com/TeamElina) for the new repo
+
 
 <details>
   <summary><b>Deploy on Heroku</b></summary>
 <br>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/Madushankabro/TheElina-Bot">
+  <a href="https://heroku.com/deploy?template=https://github.com/TeamElina/TheElinBot">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku">
   </a>
 </p>
